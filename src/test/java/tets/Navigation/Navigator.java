@@ -10,7 +10,7 @@ public class Navigator {
 
 		ChromeDriver driver = new ChromeDriver();
 		driver.navigate().to("http://www.facebook.com");
-		
+		System.out.println("this is from the 2nd person");
 	}
 
 }
